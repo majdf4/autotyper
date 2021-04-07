@@ -45,4 +45,4 @@ PyAutoGUI install the modules it depends on, including PyTweening, PyScreeze, Py
 
 # Autotyper installation:
 
-donwload the python script, and simply run. 
+donwload the python script, and simply open cmd, and run it from cmd. 
