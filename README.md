@@ -1,5 +1,9 @@
 # autotyper
 
+This is a commandline-type autotyper which uses pyautogui.
+
+Here are the installation instructions for pyautogui: 
+
 # Installation
 To install PyAutoGUI, install the pyautogui package from PyPI by running pip install pyautogui (on Windows) or pip3 install pyautogui (on macOS and Linux). (On macOS and Linux, pip refers to Python 2’s pip tool.)
 
@@ -37,3 +41,8 @@ sudo apt-get install python3-tk
 sudo apt-get install python3-dev
 
 PyAutoGUI install the modules it depends on, including PyTweening, PyScreeze, PyGetWindow, PymsgBox, and MouseInfo.
+
+
+# Autotyper installation:
+
+donwload the python script, and simply run. 
