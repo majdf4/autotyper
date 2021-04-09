@@ -20,10 +20,13 @@ import sys
 
 
 
+# def script
+def texxt(text):
+    pyautogui.write(text)
+    pyautogui.press('enter')
 
 
-
-
+# code
 count=0
 pyautogui.FAILSAFE = True
 text=input("what do you want the text to be?")
@@ -40,8 +43,7 @@ time.sleep(5)
 try:
 
 	while True:
-		pyautogui.write(text)
-		pyautogui.press('enter')
+		texxt
 		count+=1
 		time.sleep(tiime)
 
