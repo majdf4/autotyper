@@ -43,7 +43,7 @@ time.sleep(5)
 try:
 
 	while True:
-		texxt
+		texxt()
 		count+=1
 		time.sleep(tiime)
 
