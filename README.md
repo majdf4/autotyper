@@ -23,20 +23,13 @@ py -3.8 -m pip install pyautogui
 (This is the same as running pip install pyautogui.)
 
 # macOS
-On macOS and Linux, you need to run python3:
+On macOS, you need to run python3:
 
 python3 -m pip install pyautogui
 
-If you are running El Capitan and have problems installing pyobjc try:
-
-MACOSX_DEPLOYMENT_TARGET=10.11 pip install pyobjc
 
 # Linux
-On macOS and Linux, you need to run python3:
-
-python3 -m pip install pyautogui
-
-On Linux, additionally you need to install the scrot application, as well as Tkinter:
+On Linux, you need to install the scrot application, as well as Tkinter:
 
 sudo apt-get install scrot
 
@@ -44,9 +37,17 @@ sudo apt-get install python3-tk
 
 sudo apt-get install python3-dev
 
+(**do these first before doing python3 -m pip install pyautogui**)
+
+
+On macOS and Linux, you need to run python3:
+
+python3 -m pip install pyautogui
+
+
 PyAutoGUI install the modules it depends on, including PyTweening, PyScreeze, PyGetWindow, PymsgBox, and MouseInfo.
 
 
 # Autotyper installation:
 
-donwload the python script, and simply open cmd, and run it from cmd. 
+donwload the python script, and simply open cmd, and run it from cmd. (you can also doubleclick the file8)
